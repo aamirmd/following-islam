@@ -1,11 +1,9 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
-import styles from "@/styles/janazah.module.css";
+import styles from "./janazah.module.css";
 
 const Janazah = () => {
     return (
         <div>
-            <Navbar />
             <section>
                 We offer a janazah service for just $150 per person per year.
                 Here is how it works:
