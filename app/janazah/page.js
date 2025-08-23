@@ -19,31 +19,31 @@ const Janazah = () => {
             </section>
             <div>To sign up, please fill out the form below.</div>
             <div>
-                <label for="task" className={styles.textlabel}>
+                <label htmlFor="task" className={styles.textlabel}>
                     Name
                 </label>
                 <input type="text" id="task" name="task"></input>
             </div>
             <div>
-                <label for="task" className={styles.textlabel}>
+                <label htmlFor="task" className={styles.textlabel}>
                     Address
                 </label>
                 <input type="text" id="task" name="task"></input>
             </div>
             <div>
-                <label for="task" className={styles.textlabel}>
+                <label htmlFor="task" className={styles.textlabel}>
                     Contact No.
                 </label>
                 <input type="text" id="task" name="task"></input>
             </div>
             <div>
-                <label for="task" className={styles.blue}>
+                <label htmlFor="task" className={styles.blue}>
                     Credit card Number
                 </label>
                 <input type="text" id="task" name="task"></input>
             </div>
             <div>
-                <label for="task" className={styles.textlabel}>
+                <label htmlFor="task" className={styles.textlabel}>
                     Amount: $150
                 </label>
                 <input type="text" id="task" name="task"></input>
