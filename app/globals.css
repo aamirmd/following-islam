@@ -43,11 +43,11 @@ a {
 
 
   
-a {
-  color: #ffffff;         /* default link color */
-  text-decoration: none;  /* removes underline */
+/* a {
+  color: #ffffff;
+  text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease, transform 0.3s ease;
   text-transform: uppercase;
-}
+} */
 
