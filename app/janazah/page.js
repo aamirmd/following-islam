@@ -53,10 +53,4 @@ const Janazah = () => {
     );
 };
 
-// const styles = {
-//     textlabel: {
-//         margin: "10px",
-//     },
-// };
-
 export default Janazah;
