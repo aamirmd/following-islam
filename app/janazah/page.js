@@ -3,8 +3,8 @@ import styles from "./janazah.module.css";
 
 const Janazah = () => {
     return (
-        <div>
-            <section className="container mx-2 my-1">
+        <div className="">
+            <section className="container mx-2 mt-4">
                 We offer a janazah service for just $150 per person per year.
                 Here is how it works:
                 <ol>
