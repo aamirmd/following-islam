@@ -38,7 +38,7 @@ const Janazah = () => {
                 final rites are performed according to the Sunnah.
             </section>
             <div className="container d-flex justify-content-center">
-                <figure className="text-center mt-3 mb-1 text-info w-50">
+                <figure className="text-center mt-3 mb-1 text-info w-75">
                     <blockquote className="blockquote">
                         <p>
                             The Prophet Muhammad (ﷺ) said: “Whoever attends the
