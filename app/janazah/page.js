@@ -3,7 +3,7 @@ import styles from "./janazah.module.css";
 
 const Janazah = () => {
     return (
-        <div className="">
+        <div className="mt-2 mb-5">
             <div className="container d-flex justify-content-center">
                 <figure class="text-center mt-3 mb-1 text-info">
                     <blockquote class="blockquote">
@@ -19,7 +19,7 @@ const Janazah = () => {
                 </figure>
             </div>
             <section className="container mx-2 mt-4">
-                In Islam, Janaza refers to the funeral rites performed for a
+                In Islam, Janazah refers to the funeral rites performed for a
                 deceased Muslim. These rites are carried out with great care,
                 dignity, and compassion, as a way of honoring the person who has
                 returned to their Creator. The process includes
@@ -40,7 +40,7 @@ const Janazah = () => {
                     <blockquote class="blockquote">
                         <p>
                             The Prophet Muhammad (ﷺ) said: “Whoever attends the
-                            Janaza until the prayer is offered for it, then he
+                            Janazah until the prayer is offered for it, then he
                             will have one Qirat (of reward), and whoever attends
                             until it is buried, he will have two Qirats.” It was
                             asked, “What are two Qirats?” He (ﷺ) said: “Like two
