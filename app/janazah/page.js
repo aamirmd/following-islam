@@ -1,19 +1,21 @@
 import React from "react";
 import styles from "./janazah.module.css";
 
+const yearlyCost = 200;
+
 const Janazah = () => {
     return (
         <div className="mt-2 mb-5">
             <div className="container d-flex justify-content-center">
-                <figure class="text-center mt-3 mb-1 text-info">
-                    <blockquote class="blockquote">
+                <figure className="text-center mt-3 mb-1 text-info">
+                    <blockquote className="blockquote">
                         <p>
                             And do not say about those who are killed in the way
                             of Allāh, "They are dead." Rather, they are alive,
                             but you perceive [it] not.
                         </p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption className="blockquote-footer">
                         Quran 2:154 <cite>(Saheeh International)</cite>
                     </figcaption>
                 </figure>
@@ -36,8 +38,8 @@ const Janazah = () => {
                 final rites are performed according to the Sunnah.
             </section>
             <div className="container d-flex justify-content-center">
-                <figure class="text-center mt-3 mb-1 text-info w-50">
-                    <blockquote class="blockquote">
+                <figure className="text-center mt-3 mb-1 text-info w-50">
+                    <blockquote className="blockquote">
                         <p>
                             The Prophet Muhammad (ﷺ) said: “Whoever attends the
                             Janazah until the prayer is offered for it, then he
@@ -47,17 +49,17 @@ const Janazah = () => {
                             great mountains.”
                         </p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption className="blockquote-footer">
                         <cite>[Sahih al-Bukhari & Sahih Muslim]</cite>
                     </figcaption>
                 </figure>
             </div>
             <section className="container mx-2 mt-4">
-                Our service costs $200 per person per year. Here is how it
-                works:
+                Our service costs ${yearlyCost} per person per year. Here is how
+                it works:
                 <ol>
                     <li>Sign up with information of the individual</li>
-                    <li>Pledge to pay $150 per year</li>
+                    <li>Pledge to pay ${yearlyCost} per year</li>
                     <li>
                         Whenever our Janazah services are required, please give
                         us a call at (###) ###-####
