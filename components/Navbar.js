@@ -44,6 +44,18 @@ const Navbar = () => {
                             My Final Place
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link
+                            className={`nav-link ${
+                                pathname === "/hajj"
+                                    ? itemSelectedBootstrap
+                                    : itemDefaultBootstrap
+                            }`}
+                            href="/hajj"
+                        >
+                            Hajj
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
